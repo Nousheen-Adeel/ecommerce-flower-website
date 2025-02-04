@@ -54,8 +54,12 @@ const Footer = () => {
           <a href="#" className="hover:text-pink-500">
             <PiInstagramLogoFill className="text-xl" />
           </a>
+          
         </div>
+      
+  
       </div>
+   
     </div>
   );
 };
