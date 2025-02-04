@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light & Dark Mode Variables */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+/* Apply Variables */
+body {
+  @apply text-[var(--foreground)] bg-[var(--background)] font-sans;
+}
+
+/* Button Styling */
+.btn {
+  @apply flex items-center gap-2 px-4 py-2 rounded transition duration-300;
+}
+
+.btn-primary {
+  @apply bg-pink-600 text-white hover:bg-pink-700;
+}
